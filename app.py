@@ -26,3 +26,14 @@ from flask import Flask
 app = Flask(__name__)
 app.config['DEBUG'] = False  # Disable debug mode
 ```
+
+# SentraCode Fix Applied - Remediation 4
+
+# Context:
+```python
+# Corrected Flask application configuration
+from flask import Flask
+
+app = Flask(__name__)
+app.config['DEBUG'] = False  # Disable debug mode
+```
